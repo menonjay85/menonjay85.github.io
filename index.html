@@ -14,13 +14,13 @@
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h2>About me.</h2>
-				<p>{{ site.description }}</p>
+				<h2>About me!</h2>
+				<p class="semibold">{{ site.description }}</p>
 			</div>
 		</section>
 		<section class="projects">
 			<div class="container">
-				<h2>Projects I have worked on.</h2>
+				<h2>Projects</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>
@@ -28,7 +28,7 @@
 								<div class="img-wrapper">
 									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								</div>
-								<span class="h2">{{ item.project.type }}</span>
+								<span class="h2">{{ item.project.tech }}</span>
 								<h3>{{ item.project.title }}</h3>
 							</a>
 						</li>

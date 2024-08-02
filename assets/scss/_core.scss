@@ -8,7 +8,7 @@ body {
 	font-family: $font-poppins;
 	font-size: 1.8em;
 	line-height: 1.6;
-	font-weight: 600;
+	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -26,11 +26,11 @@ h2,
 	color: $color-silver-chalice;
 	display: block;
 	font-family: $font-lekton;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: .2rem;
     line-height: 1;
-    margin: 0 0 1rem;
+    margin: 1 0 1rem;
     text-transform: uppercase;
 }
 
@@ -38,15 +38,23 @@ h3,
 .h3 {
 	color: $color-black;
 	font-family: $font-poppins;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
     margin: 0;
+	margin-bottom: 8px;
 }
 
 p {
 	margin: 0;
+	font-weight:400
 }
+
+.semibold {
+	font-weight:600
+}
+
+
 
 a {
 	color: $color-black;
