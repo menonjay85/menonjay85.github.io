@@ -1,12 +1,16 @@
+include:
+  - assets
+
 # User config
 author: "Jay Menon"
 tagline: "Jay's Portfolio"
-description: "Jay's Portfolio"
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "jpavtges48@gmail.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+description: "Roboticist, Maker, M.S. in Robotics and Autonomous Systems at Arizona State University. My work focuses on robot learning for autonomous navigation and object manipulation!"
+keywords: "Roboticist, Engineer, Pineapple, Pineapple Pizza"
+email: "menonjay85@gmail.com"
+resume: "/assets/Resume - Jay Menon.pdf/"
+linkedin: "https://www.linkedin.com/in/jay-menon99/"
+# twitter: "https://twitter.com/"
+github: "https://github.com/menonjay85/"
 
 # Site config
 baseurl: ""
