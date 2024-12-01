@@ -4,10 +4,10 @@ include:
 # User config
 author: "Jay Menon"
 tagline: "Jay's Portfolio"
-description: "Roboticist, Maker, M.S. in Robotics and Autonomous Systems at Arizona State University. My work focuses on robot learning for autonomous navigation and object manipulation!"
+description: "Roboticist & Maker culminating M.S. in Robotics and Autonomous Systems at Arizona State University. I am also the Research Fellow for TSMC (Taiwan Semiconductor Manufacturing Company). My work focuses on robot learning for autonomous navigation, object manipulation & control systems especially in bio-inspired robotics!"
 keywords: "Roboticist, Engineer, Pineapple, Pineapple Pizza"
 email: "menonjay85@gmail.com"
-resume: "/assets/resume_jay_menon.pdf/"
+resume: "assets/resume_jay_menon.pdf"
 linkedin: "https://www.linkedin.com/in/jay-menon99/"
 # twitter: "https://twitter.com/"
 github: "https://github.com/menonjay85/"
