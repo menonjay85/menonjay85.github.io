@@ -14,14 +14,26 @@
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h2>About me!</h2>
-				<p class="semibold">{{ site.description }}</p>
-				<br>
-				<h2>Publications</h2>
-				<h1>Compound Koopman Data-Driven Control for an Inchworm Robot: Validation through Virtual Experiments (Robotica)</h1><br>
-				<h1>Published Patent for Protective Helmet Design (India) – [375891-001] in February 2023</h1>
+			  <!-- Full-width heading for About me -->
+			  <h2>About me!</h2>
+			  <!-- Flex container only for the image and bio -->
+			  <div class="about-me">
+				<div class="profile-container">
+				  <img src="{{ site.baseurl }}/assets/profile.jpg" alt="Jay Menon" class="profile-pic">
+				</div>
+				<div class="description-container">
+				  <p class="semibold">{{ site.description }}</p>
+				</div>
+			  </div>
+			  <!-- Publications heading spans full container width -->
+			  <br>
+			  <h2>Publications</h2>
+			  <h1>Compound Koopman Data-Driven Control for an Inchworm Robot: Validation through Virtual Experiments (Robotica)</h1>
+			  <!-- <p class="semibold">Compound Koopman Data-Driven Control for an Inchworm Robot: Validation through Virtual Experiments (Robotica)</p> -->
+			  <br>
+			  <h1>Published Patent for Protective Helmet Design (India) – [375891-001] in February 2023</h1>
 			</div>
-		</section>
+		  </section>					  
 		<section class="projects">
 			<div class="container">
 				<h2>Projects</h2>

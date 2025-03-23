@@ -15,16 +15,17 @@
 
 .logo {
 	float: left;
-	font-size: 2.0rem;
+	font-size: 3.0rem;
 	font-weight: 600;
 	margin-right: 10px;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 .nav {
 	float: right;
 
 	a {
+		margin-left: 2rem;
 		@extend .logo;
 	}
 }
@@ -44,16 +45,26 @@
 	}
 }
 
+
 .intro,
 .projects {
 	padding: 0 0 5rem;
 }
 
+.intro h2 {
+	font-size: 2.0rem;  /* Adjust this value as desired */
+  }
+
+.projects h2 {
+font-size: 2.0rem !important;
+}
+  
+
 .intro {
 	@media (min-width: $breakpoint-medium) {
 		p {
 			font-size: 2.7rem;
-			max-width: 66.66666%;
+			// max-width: 66.66666%;
 		}
 	}
 }
@@ -427,3 +438,28 @@
 	width: 100%;
 	height: 100%;
   }
+
+
+.about-me {
+    display: flex;
+    align-items: center; /* Aligns image and text vertically */
+    gap: 40px; /* More space between image and text */
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.profile-container {
+    flex: 0 0 300px; /* Wider profile image */
+    max-width: 30%; /* Ensures image does not shrink too much */
+}
+
+.profile-pic {
+    width: 100%; /* Keeps the image responsive */
+    height: auto;
+    border-radius: 0; /* Keeps the image rectangular */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.description-container {
+    flex: 1; /* Allows it to use the remaining space */
+}
+
