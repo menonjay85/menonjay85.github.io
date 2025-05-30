@@ -1,0 +1,42 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h2 style="text-align:left;">Manipulation</h2>
+<hr>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}" style="display: block;">
+  {% include documents-collection.html collection=page.collection1 sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>
+
+<h2 style="text-align:left;">Perception & Navigation</h2>
+<hr>
+
+
+<div class="entries-{{ entries_layout }}" style="display: block;">
+  {% include documents-collection.html collection=page.collection2 sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>
+
+<h2 style="text-align:left;">Machine Learning</h2>
+<hr>
+
+<div class="entries-{{ entries_layout }}" style="display: block;">
+  {% include documents-collection.html collection=page.collection3 sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>
+
+<h2 style="text-align:left;">Mechatronics & Simulation</h2>
+<hr>
+
+<div class="entries-{{ entries_layout }}" style="display: block;">
+  {% include documents-collection.html collection=page.collection4 sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>
+
+<h2 style="text-align:left;">Web/Mobile Dev & Other</h2>
+<hr>
+
+<div class="entries-{{ entries_layout }}" style="display: block;">
+  {% include documents-collection.html collection=page.collection5 sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+</div>

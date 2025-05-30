@@ -1,0 +1,14 @@
+main:
+  - title: "More about me"
+    url: /about/
+  - title: "Resume"
+    # url: https://raw.githubusercontent.com/hang-yin/portfolio/gh-pages/assets/YH-resume.pdf
+    url: ""
+  # - title: "Posts"
+  #   url: /posts/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "About"
+  #   url: /about/
