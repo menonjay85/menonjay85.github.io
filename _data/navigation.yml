@@ -2,7 +2,7 @@ main:
   - title: "More about me"
     url: /about/
   - title: "Resume"
-    url: https://raw.githubusercontent.com/menonjay85/portfolio/master/assets/resume/Jay_Menon_Resume.pdf
+    url: /assets/resume/Jay_Menon_Resume.pdf
   # - title: "Posts"
   #   url: /posts/
   # - title: "Categories"
